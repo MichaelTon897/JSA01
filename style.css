@@ -1,0 +1,35 @@
+body {
+    background-color: aqua;
+}
+
+.avatar {
+    border-radius: 100px;
+}
+h1 {
+    color: rgb(255,0,0);
+    text-align: center; /* Dùng để căn chỉnh văn bản*/ 
+    text-shadow: 0 0 3px #FF0000;  
+}
+h2{
+    text-align: center;
+}
+
+.button{
+    margin-bottom: 20px; /* cách từng cái và br bên html để cách xuống dòng */
+    background-color: white;
+    border: 0; /*khung viền */
+    border-radius: 100px; /* bo tròn viền */
+    width: 300px; /* chiều rộng */
+    padding: 10px; /* đêm thêm */
+    font-size: 20px;
+    box-shadow: -1px 3px 12px 1px rgba(0,0,0,0.69); /* bóng dưới tên */
+    -webkit-box-shadow: -1px 3px 12px 1px rgba(0,0,0,0.69);
+    -moz-box-shadow: -1px 3px 12px 1px rgba(0,0,0,0.69);
+    cursor: pointer;
+
+}
+
+.button:hover { /* khi nhấn vô button sẽ có hiệu ứng */
+    color: white;
+    background-color: black;
+}
