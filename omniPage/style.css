@@ -1,0 +1,9 @@
+body{
+    background-image: url("./resoure/background.jpg");
+    background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+    font-size: 25px
+}
