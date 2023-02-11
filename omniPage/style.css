@@ -1,9 +1,38 @@
 body{
     background-image: url("./resoure/background.jpg");
+    
     background-size: cover;
 }
 
-.flex-container {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
     display: flex;
-    font-size: 25px
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    width:100%;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+}
+.ki{
+    display: flex;
+    flex-direction: row;
+}
+
+.ki li {
+    margin-right: 40px;
+    text-decoration: none;
 }
